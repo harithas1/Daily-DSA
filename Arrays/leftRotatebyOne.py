@@ -7,6 +7,9 @@
 #  2,3,4,5,1
 
 
+# Leetcode: https://leetcode.com/problems/rotate-array/description/
+
+
 def rotate1(arr):
     n=len(arr)
     if n<=2:
