@@ -1,6 +1,5 @@
 # Rotate array by K elements
 
-
 # Problem Statement: Given an array of integers, rotating array of elements by k elements either left or right.
 
 # Example 1:
@@ -13,6 +12,8 @@
 # Output: 9 10 11 3 7 8
 # Explanation: Array is rotated to right by 3 position.
 
+
+# Leetcode: https://leetcode.com/problems/rotate-array/description/
 
 # Approach: 1 
 
