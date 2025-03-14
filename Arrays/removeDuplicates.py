@@ -12,25 +12,23 @@
 #  arr[1,2,3,_,_,_,_]
 
 
+# Leetcode: https://leetcode.com/problems/remove-duplicates-from-sorted-array/
+
+
 # Approach: 1 (Optimal Approach)
 
 def removeDuplicates1(arr):
-    n=len(arr)
-    if n<2 or arr[0]!=arr[1]:
-        return arr
-    next_el_idx=1
-    prev_el=arr[0]
-    for i in range(1,n):
-        if arr[i]!=prev_el:
-            arr[next_el_idx]=arr[i]
-            next_el_idx+=1
-            prev_el=arr[i]
-    # arr[next_el_idx:]="_"*(n-next_el_idx)
-    return arr[:next_el_idx]
+        n=len(arr)
+        i=0
+        for j in range(1,n):
+            if arr[i]!=arr[j]:
+                i+=1
+                arr[i]=arr[j]
+        return i+1
     
 
 arr = [1,1,2,2,2,3,3]
-print(removeDuplicates1(arr))
+print(arr[:removeDuplicates1(arr)])
 
 # Time complexity: O(N)
 # Space complexity: O(1)
