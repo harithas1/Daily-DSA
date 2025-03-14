@@ -101,4 +101,4 @@ print(arr)
 
 
 # Time complexity: O(N)
-# Space complexity: O(K)
+# Space complexity: O(1)
