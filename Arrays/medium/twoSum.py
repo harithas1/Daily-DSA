@@ -6,6 +6,9 @@
 
 # 2nd variant: Return indices of the two numbers such that their sum is equal to the target. Otherwise, we will return {-1, -1}.
 
+
+# Leetcode: https://leetcode.com/problems/two-sum/description/
+
 def twoSum1(arr,target):
     for i in range(len(arr)):
         for j in range(i+1,len(arr)):
