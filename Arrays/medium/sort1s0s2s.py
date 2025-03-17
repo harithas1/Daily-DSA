@@ -7,6 +7,8 @@
 # Output: [0,0,0,1,1,2,2]
 
 
+# Leetcode: https://leetcode.com/problems/sort-colors/description/
+
 # Approach: 1 (over writing)
 
 def sort1(arr):
