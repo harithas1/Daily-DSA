@@ -3,6 +3,8 @@
 
 # Problem Statement: You are given an array of ‘N’ integers. You need to find the length of the longest sequence which contains the consecutive elements.
 
+# Leetcode: https://leetcode.com/problems/longest-consecutive-sequence/editorial/
+
 # Approach :1 (Better Approach)
 
 def longestConsecutiveSeq1(arr):
