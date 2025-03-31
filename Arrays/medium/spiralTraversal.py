@@ -47,7 +47,7 @@ print(spiralTraversal( [[1, 2, 3, 4] ,
 	               [13, 14, 15, 16]]))
 
 # Time Complexity: O(N*M) 
-# Space Complexity: O(N)
+# Space Complexity: O(1)
 
 
 # We use four boundaries to control the movement:
